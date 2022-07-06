@@ -15,12 +15,14 @@ import Cookies from './components/Cookies';
 import Footer from './Footer';
 import Signup from './components/Signup';
 import './App.css'
+import Seach from './Seach';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <Main />
       <Navbar />
+      <Seach />
           <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/Men" element={<Men />} />

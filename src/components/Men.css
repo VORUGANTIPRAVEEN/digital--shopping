@@ -1,11 +1,14 @@
 .main_div{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .men_main_div{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .image_menss{
     width: 100%;

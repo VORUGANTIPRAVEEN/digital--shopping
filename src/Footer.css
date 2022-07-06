@@ -1,24 +1,6 @@
 .footer_cls{
-    /* color: #c8cbcc;
-    background-color: #363738;
-    height: 105px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: stretch; */
-    /* position: fixed; */
-    /* padding: 30px 10px 0px 10px;
-    bottom: 0;
-    width: 100%; */
-    /* Height of the footer*/ 
-    /* height: 100px; */
     background: rgb(58, 54, 54);
-
-
-    /*  */
-    position: fixed;
+    /* position: fixed; */
    left: 0;
    bottom: 0;
    width: 100%;
@@ -37,4 +19,8 @@
     height: 22px;
     align-items: center;
     justify-content: flex-start;
+}
+.image_mensss{
+    width: 100%;
+    height: auto;
 }

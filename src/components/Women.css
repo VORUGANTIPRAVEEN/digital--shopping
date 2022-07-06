@@ -5,7 +5,7 @@
 .women_imgs{
     width: 250px;
     height: 450px;
-    border-style: dotted;
+    /* border-style: dotted; */
 }
 .womens_img_div{
     display: flex;
@@ -14,6 +14,18 @@
     width: 235px;
     height: 320px;
 }
-.main_div{
-    display: flex;
+.dress_name{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.dress_desc{
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.women_btn:hover{
+  color:red;
+}
+.women_btn{
+   color: black;
 }

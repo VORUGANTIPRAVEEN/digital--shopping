@@ -1,0 +1,17 @@
+.searech_main_div{
+    display: flex;
+    border-style: groove;
+    border-radius: 10px;
+    width: 465px;
+    float:right;
+    text-align: center;
+}
+.search_input_div{
+    width: 400px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.search_img_tag{
+
+}
