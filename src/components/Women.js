@@ -4,7 +4,6 @@ import Foot from './icons/footware.png'
 import './Men.css'
 import Womens_items from './Womens_items'
 export default function Women() {
-  console.log(Womens_items, "test")
   return (
     <div>
       <h1>WOMENS</h1>

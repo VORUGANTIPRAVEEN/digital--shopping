@@ -4,8 +4,7 @@ import kidsdata from './Kids_item'
 export default function Kids_items() {
  return  kidsdata.Kids.map((data,index)=> {
   return (
-    <div>
-         <div className='womens_img_div'>
+         <div className='womens_img_div' key={data.id.toString()}>
             <div className='women_imgs'>
                 <img className='image_mens' src={data.image}  alt="Logo" />
                 <div className='dress_name'>{data.item_Name}</div>
@@ -14,7 +13,6 @@ export default function Kids_items() {
                 <button className='women_btn'>Add to Cart</button>
           </div>
         </div> 
-    </div>
   )
  });
 }
